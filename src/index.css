@@ -26,7 +26,7 @@
     color: #ee6e73;
     display: block;
     margin-bottom: 20px;
-    
+
 }
 .collection .collection-item img{
     width: 150px;
@@ -34,4 +34,13 @@
 }
 .item-desc{
     align-self:center;
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form bottom, form h5{
+  margin: 20px 0;
 }
