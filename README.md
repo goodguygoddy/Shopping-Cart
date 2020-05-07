@@ -2,6 +2,8 @@
 
 This simple application prototype shows how we can use React and Redux to build a friendly user experience with instant visual updates.
 
+Demo : https://whitepandatask.firebaseapp.com/
+
 ## Features
 * Add and remove items
 * Remove items
