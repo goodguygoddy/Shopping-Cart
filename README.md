@@ -1,9 +1,6 @@
-# Basic e-commerce cart application built with React & Redux
+# Basic Grocery cart application built with React & Redux and Firebase Authentication
 
 This simple application prototype shows how we can use React and Redux to build a friendly user experience with instant visual updates.
-
-## Demo
-[Here](https://my-shopping-cart-leawwzhsmf.now.sh/)
 
 ## Features
 * Add and remove items 
@@ -15,6 +12,7 @@ This simple application prototype shows how we can use React and Redux to build 
 ### Requirements
 
 * Node.js
+* React.js
 * NPM
 
 ### Package installation
@@ -26,4 +24,9 @@ npm install
 ```bash
 npm start
 ```
-The application will start automatically in your browser on http://localhost:3000
+The application will start at port 8080 on your browser on http://localhost:8080
+
+### UI/UX Design Pictures
+
+
+
