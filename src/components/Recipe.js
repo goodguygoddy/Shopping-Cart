@@ -23,12 +23,11 @@ class Recipe extends Component {
         <li className="collection-item">
           <label>
             <input type="checkbox" ref="shipping" onChange={this.handleChecked}/>
-            <span>Shipping(+6Rs)</span>
+            <span>Shipping(+6 Rs)</span>
           </label>
         </li>
         <li className="collection-item">
-          <b>Total: {this.props.total}
-            Rs</b>
+          <b>Total: {this.props.total} Rs</b>
         </li>
       </div>
       <div className="checkout">
@@ -39,7 +38,9 @@ class Recipe extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {addedItems: state.addedItems, total: state.total}
+  return {
+    addedItems: state.cart.addedItems,
+    total: state.cart.total}
 }
 
 const mapDispatchToProps = (dispatch) => {
